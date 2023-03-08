@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    font-family: 'Poppins'
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-content: center;
+}
+
+.cabecalho .logo {
+    width: 100px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+.cabecalho nav li {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: none;
+}
+
+.cabecalho nav li:hover {
+    background-color: rgb(255, 80, 27);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 15px 30px 30px 30px;
+    display: flex;
+    height: calc (100vh - 113px);
+    align-items: center;
+    overflow: hidden
+}
+
+.container .imagem-titulo {
+    max-width: 560px;
+    
+    
+}
+
+.container .person {
+    width: 45%;
+    padding-left: 30px;
+    margin-right: 40px;
+    margin-top: -55px;
+}
+
+.container .descricao {
+    color: #d4611b;
+    width: 80%;
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 500;
+}
+
+.container .botao-trailer {
+    background-color: #d4611b;
+    color: beige;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: none;
+    text-transform: uppercase;
+
+}
+
+.container .botao-trailer:hover {
+    transition: 0.5s;
+    transform: Scale(1.08);
+
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fundo-video .video {
+    height: 100vh;
+
+}
+
+.fundo-video::after {
+    content: "";
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0.8491771708683473) 50%, rgba(0, 0, 0, 1) 80%);
+}
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(19, 19, 19, 0.836);
+    visibility: hidden;
+
+
+}
+
+.conteudo-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 9px;
+    gap: 15px;
+
+}
+
+.fechar-md {
+    background-color: #ffffff;
+    color: #db4307;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.abt {
+    opacity: 1;
+    visibility: visible;
+}
