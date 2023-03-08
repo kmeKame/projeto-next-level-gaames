@@ -5,7 +5,7 @@ Projeto pessoal para desenvolvimento de Habilidades em Html, JavaScript e Css.
 Modelo de tela inicial de um site de aluguel de mídias com botão para vídeo de canal e extras de catálogo com integração ao banco de dados.
 
 
-### [Clique aqui e acesse o projeto](https://sr-kme.github.io/projeto-next-level-gaames
+### [Clique aqui e acesse o projeto](https://kmekame.github.io/projeto-next-level-gaames
 /)
 
 ## Tecnologias
