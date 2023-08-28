@@ -9,5 +9,9 @@ Modelo de tela inicial de um site de aluguel de mídias com botão para vídeo d
 - JavaScript
 - Git e GitHub
 
+## Preview
+![image](https://github.com/kmeKame/projeto-next-level-gaames/assets/68630209/346a0c5f-c265-468c-af85-08e4529e9127)
+
+
 ## Contato
 gomesolive978@gmail.com
